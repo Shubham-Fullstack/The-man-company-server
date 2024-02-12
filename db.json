@@ -1,34 +1,297 @@
 {
-    "users":[
-      {
-        "id": "0",
-        "name": "shubham garg",
-        "email": "shubhamgarg87976@gmail.com",
-        "phone": "9667810688"
-      },
-      {
-        "id": "1",
-        "name": "annuj garg",
-        "email": "annujgarg202@gmail.com",
-        "phone": "9643154093"
-      },
-      {
-        "id": "2",
-        "name": "devansh goel",
-        "email": "devansh@gmail.com",
-        "phone": "8711876653"
-      },
-      {
-        "id": "3",
-        "name": "akansh goel",
-        "email": "aikansh87976@gmail.com",
-        "phone": "9667810666"
-      },
-      {
-        "id": "4",
-        "name": "ishwam garg",
-        "email": "ishwamgarg19@gmail.com",
-        "phone": "8865157777"
-      }
-    ]
+  "featured": [
+    {
+      "id": "1",
+      "src2": "",
+      "src": "https://www.themancompany.com/cdn/shop/files/TOP_TILESTOP_TILE_DESKTOP_5e335ac7-f68a-47a7-9d7e-1746ecb50f13_480x.jpg?v=1706608859",
+      "title": "Valentine's Gift"
+    },
+    {
+      "id": "2",
+      "src2": "",
+      "src": "https://www.themancompany.com/cdn/shop/files/TOP_TILESTOP_TILE_DESKTOP_1_480x.jpg?v=1706609286",
+      "title": "Personalised GIFT BOX"
+    },
+    {
+      "id": "3",
+      "src2": "",
+      "src": "https://www.themancompany.com/cdn/shop/files/TOP_GRID_2desktop_2.0_480x.jpg?v=1679996601",
+      "title": "FEATURED PRODUCTS"
+    },
+    {
+      "id": "4",
+      "src2": "",
+      "src": "https://www.themancompany.com/cdn/shop/files/vitamin_c_seriesVitamin_C_desktop_480x.jpg?v=1668671059",
+      "title": "GROOMING RANGE"
+    }
+  ],
+  "article": [
+    {
+      "id": "1",
+      "src2": "https://www.themancompany.com/cdn/shop/files/BodyWashLimit1100x11007_480x.jpg?v=1705057548",
+      "src": "https://www.themancompany.com/cdn/shop/files/BodyWashLimit1100x11001_765x.jpg?v=1705057548",
+      "type": "body wash",
+      "title": "Pure Showering Blasts - Pack Of 3 Body Washes",
+      "link": "Pure-Showering-Blasts-Pack-Of-3-Body-Washes",
+      "description": "Elevate your daily grooming routine with the Pure Showering Blasts combo - a ...",
+      "price": "₹897",
+      "beforeprice": "₹1000",
+      "discount": "SAVE 10%",
+      "ratings": "4.7"
+    },
+    {
+      "id": "2",
+      "src2": "https://www.themancompany.com/cdn/shop/files/Antigreyingimages3_480x.jpg?v=1692775618",
+      "src": "https://www.themancompany.com/cdn/shop/products/Anti_3_765x.jpg?v=1692775618",
+      "type": "2 options available",
+      "title": "Anti-Graying Hair & Beard Serum",
+      "link": "Anti-Graying-Hair-&-Beard-Serum",
+      "description": "Gone will be gray days! If graying is taking a toll on your confidence, then...,",
+      "price": "₹299",
+      "beforeprice": "₹400",
+      "discount": "SAVE 15%",
+      "ratings": "4.8"
+    },
+    {
+      "id": "3",
+      "src2": "https://www.themancompany.com/cdn/shop/files/lip-light-result-png-new_480x.jpg?v=1704962029",
+      "src": "https://www.themancompany.com/cdn/shop/files/Lip-Lightening-Regime-NEW_765x.png?v=1704962029",
+      "type": "Lip Lightening Regime",
+      "title": "Lip Lightening Regime",
+      "link": "Lip-Lightening-Regime",
+      "description": "Want to reverse the effect of nicotine and sun damage from your lips? Our “Li...",
+      "price": "₹299",
+      "beforeprice": "₹350",
+      "discount": "SAVE 12.5%",
+      "ratings": "4.9"
+    },
+    {
+      "id": "4",
+      "src2": "https://www.themancompany.com/cdn/shop/products/4_979b4bb9-714c-4f03-960f-360d8b1ba884_480x.webp?v=1683628614",
+      "src": "https://www.themancompany.com/cdn/shop/files/HVP_GWP-Bold150ml_765x.png?v=1683628614",
+      "type": "2 options available",
+      "title": "Hair Volumizing Powder Wax | Argan Oil & Rice Starch",
+      "link": "Hair-Volumizing-Powder-Wax-|-Argan-Oil-&-Rice-Starch",
+      "description": "For hair that speaks volumes about your personality! Our easy-to-use Hair Vol...",
+      "price": "₹399",
+      "beforeprice": "₹500",
+      "discount": "SAVE 22%",
+      "ratings": "4.5"
+    },
+    {
+      "id": "4",
+      "src2": "https://www.themancompany.com/cdn/shop/products/4_979b4bb9-714c-4f03-960f-360d8b1ba884_480x.webp?v=1683628614",
+      "src": "https://www.themancompany.com/cdn/shop/files/HVP_GWP-Bold150ml_765x.png?v=1683628614",
+      "type": "2 options available",
+      "title": "Hair Volumizing Powder Wax | Argan Oil & Rice Starch",
+      "link": "Hair-Volumizing-Powder-Wax-|-Argan-Oil-&-Rice-Starch",
+      "description": "For hair that speaks volumes about your personality! Our easy-to-use Hair Vol...",
+      "price": "₹399",
+      "beforeprice": "₹500",
+      "discount": "SAVE 22%",
+      "ratings": "4.5"
+    },
+    {
+      "id": "5",
+      "src2": "https://www.themancompany.com/cdn/shop/products/4_979b4bb9-714c-4f03-960f-360d8b1ba884_480x.webp?v=1683628614",
+      "src": "https://www.themancompany.com/cdn/shop/files/HVP_GWP-Bold150ml_765x.png?v=1683628614",
+      "type": "2 options available",
+      "title": "Hair Volumizing Powder Wax | Argan Oil & Rice Starch",
+      "link": "Hair-Volumizing-Powder-Wax-|-Argan-Oil-&-Rice-Starch",
+      "description": "For hair that speaks volumes about your personality! Our easy-to-use Hair Vol...",
+      "price": "₹399",
+      "beforeprice": "₹500",
+      "discount": "SAVE 22%",
+      "ratings": "4.5"
+    },
+    {
+      "id": "6",
+      "src2": "https://www.themancompany.com/cdn/shop/products/4_979b4bb9-714c-4f03-960f-360d8b1ba884_480x.webp?v=1683628614",
+      "src": "https://www.themancompany.com/cdn/shop/files/HVP_GWP-Bold150ml_765x.png?v=1683628614",
+      "type": "2 options available",
+      "title": "Hair Volumizing Powder Wax | Argan Oil & Rice Starch",
+      "link": "Hair-Volumizing-Powder-Wax-|-Argan-Oil-&-Rice-Starch",
+      "description": "For hair that speaks volumes about your personality! Our easy-to-use Hair Vol...",
+      "price": "₹399",
+      "beforeprice": "₹500",
+      "discount": "SAVE 22%",
+      "ratings": "4.5"
+    },
+    {
+      "id": "7",
+      "src2": "https://www.themancompany.com/cdn/shop/products/4_979b4bb9-714c-4f03-960f-360d8b1ba884_480x.webp?v=1683628614",
+      "src": "https://www.themancompany.com/cdn/shop/files/HVP_GWP-Bold150ml_765x.png?v=1683628614",
+      "type": "2 options available",
+      "title": "Hair Volumizing Powder Wax | Argan Oil & Rice Starch",
+      "link": "Hair-Volumizing-Powder-Wax-|-Argan-Oil-&-Rice-Starch",
+      "description": "For hair that speaks volumes about your personality! Our easy-to-use Hair Vol...",
+      "price": "₹399",
+      "beforeprice": "₹500",
+      "discount": "SAVE 22%",
+      "ratings": "4.5"
+    },
+    {
+      "id": "8",
+      "src2": "https://www.themancompany.com/cdn/shop/products/4_979b4bb9-714c-4f03-960f-360d8b1ba884_480x.webp?v=1683628614",
+      "src": "https://www.themancompany.com/cdn/shop/files/HVP_GWP-Bold150ml_765x.png?v=1683628614",
+      "type": "2 options available",
+      "title": "Hair Volumizing Powder Wax | Argan Oil & Rice Starch",
+      "link": "Hair-Volumizing-Powder-Wax-|-Argan-Oil-&-Rice-Starch",
+      "description": "For hair that speaks volumes about your personality! Our easy-to-use Hair Vol...",
+      "price": "₹399",
+      "beforeprice": "₹500",
+      "discount": "SAVE 22%",
+      "ratings": "4.5"
+    },
+    {
+      "id": "9",
+      "src2": "https://www.themancompany.com/cdn/shop/products/4_979b4bb9-714c-4f03-960f-360d8b1ba884_480x.webp?v=1683628614",
+      "src": "https://www.themancompany.com/cdn/shop/files/HVP_GWP-Bold150ml_765x.png?v=1683628614",
+      "type": "2 options available",
+      "title": "Hair Volumizing Powder Wax | Argan Oil & Rice Starch",
+      "link": "Hair-Volumizing-Powder-Wax-|-Argan-Oil-&-Rice-Starch",
+      "description": "For hair that speaks volumes about your personality! Our easy-to-use Hair Vol...",
+      "price": "₹399",
+      "beforeprice": "₹500",
+      "discount": "SAVE 22%",
+      "ratings": "4.5"
+    },
+    {
+      "id": "10",
+      "src2": "https://www.themancompany.com/cdn/shop/products/4_979b4bb9-714c-4f03-960f-360d8b1ba884_480x.webp?v=1683628614",
+      "src": "https://www.themancompany.com/cdn/shop/files/HVP_GWP-Bold150ml_765x.png?v=1683628614",
+      "type": "2 options available",
+      "title": "Hair Volumizing Powder Wax | Argan Oil & Rice Starch",
+      "link": "Hair-Volumizing-Powder-Wax-|-Argan-Oil-&-Rice-Starch",
+      "description": "For hair that speaks volumes about your personality! Our easy-to-use Hair Vol...",
+      "price": "₹399",
+      "beforeprice": "₹500",
+      "discount": "SAVE 22%",
+      "ratings": "4.5"
+    }
+  ],
+  "newlaunches": [
+    {
+      "id": 1,
+      "src2": "https://www.themancompany.com/cdn/shop/files/39090_765x.jpg?v=1702987312",
+      "src": "//www.themancompany.com/cdn/shop/files/po4-valentinecombo_2.jpg?v=1706600163",
+      "type": "perfume",
+      "title": "A Gentleman's Desire - Premium Fragrance Gift Set",
+      "link": "A-Gentleman's-Desire-Premium-Fragrance-Gift-Set",
+      "description": "Relish the unification of four exclusive scents, curated to deliver unmatched...",
+      "price": "₹598",
+      "beforeprice": "₹996",
+      "discount": "39% OFF",
+      "ratings": "4.9"
+    },
+    {
+      "id": 2,
+      "src2": "https://www.themancompany.com/cdn/shop/files/4_0bb73495-ade4-42da-ac42-69bbff8b44cf_480x.jpg?v=1698233723",
+      "src": "https://www.themancompany.com/cdn/shop/files/2_e6e1af7a-afd3-4bb1-aa3e-e397e348a088_480x.jpg?v=1698233723",
+      "type": "face wash",
+      "title": "Charcoal Face Wash | Charcoal & Ylang-Ylang (50ml)",
+      "link": "Charcoal-Face-Wash-|-Charcoal-&-Ylang-Ylang-(50ml)",
+      "description": "The Man Company's Charcoal Face Wash for men does not only have the deep clear skin",
+      "price": "₹199",
+      "beforeprice": "",
+      "discount": "",
+      "ratings": "5.0"
+    },
+    {
+      "id": 3,
+      "src2": "https://www.themancompany.com/cdn/shop/files/BlancShavingCream100gPrimary1100x1100_480x.jpg?v=1698305254",
+      "src": "https://www.themancompany.com/cdn/shop/files/BlancShavingCream100gPrimary1100x11001_480x.jpg?v=1698226698",
+      "type": "shaving cream",
+      "title": "Blanc Shaving Cream | Menthol & Vitamin E (100g)",
+      "link": "Blanc-Shaving-Cream-|-Menthol-&-Vitamin-E-(100g)",
+      "description": "Pamper your skin and beard with The Man Company's rich and refreshing Blanc Shaving foam",
+      "price": "₹295",
+      "beforeprice": "₹349",
+      "discount": "15% OFF",
+      "ratings": "4.8"
+    },
+    {
+      "id": 4,
+      "src2": "https://www.themancompany.com/cdn/shop/files/BlancShavingCream100gPrimary1100x11003_112919a8-c289-4735-b262-3e0a0b050396_480x.jpg?v=1698228607",
+      "src": "https://themancompany.com/cdn/shop/files/BlancShavingCream100gPrimary1100x11001_2b915e4e-d2e2-4045-82ce-071213fca503_480x.jpg?v=1698228603",
+      "type": "shaving cream",
+      "title": "Vitamin C Face Wash | Vitamin C & Niacinamide (50ml)",
+      "link": "Vitamin-C-Face-Wash-|-Vitamin-C-&-Niacinamide-(50ml)",
+      "description": "Pamper your skin and beard with The Man Company's rich and refreshing Blanc Shaving foam",
+      "price": "₹199",
+      "beforeprice": "",
+      "discount": "",
+      "ratings": "4.3"
+    }
+  ],
+  "groominginfluencers": [
+    {
+      "id": 1,
+      "src2": "",
+      "src": "https://cdn.shopify.com/videos/c/o/v/f986b61261674bc88bb8c806017fd3ae.mp4",
+      "type": "",
+      "title": "lip lightening combo",
+      "link": "",
+      "description": "A soothing treat for your skin with the ultimate shaving experience.",
+      "price": "₹598",
+      "beforeprice": "",
+      "discount": "4% OFF",
+      "ratings": "4.7"
+    },
+    {
+      "id": 2,
+      "src2": "",
+      "src": "https://cdn.shopify.com/videos/c/o/v/d5a4cc96f15545dc8287b6c69523cdcf.mp4",
+      "type": "",
+      "title": "A Gentleman's Moods - Premium Fragrance Gift Set",
+      "link": "",
+      "description": "a soothing treat for your skin with the ultimate shaving experience.",
+      "price": "₹598",
+      "beforeprice": "",
+      "discount": "4% OFF",
+      "ratings": "4.6"
+    },
+    {
+      "id": 3,
+      "src2": "",
+      "src": "https://cdn.shopify.com/videos/c/o/v/ff7557cc63504b0a8ddaf369341402ac.mp4",
+      "type": "",
+      "title": "blanc curation kit",
+      "link": "",
+      "description": "A powerhouse of Vitamin C and anti-oxidants added with the benefits...",
+      "price": "₹1588",
+      "beforeprice": "",
+      "discount": "4% OFF",
+      "ratings": "4.7"
+    },
+    {
+      "id": 4,
+      "src2": "",
+      "src": "https://cdn.shopify.com/videos/c/o/v/ee04b24df49542418d0c8a3e98027106.mp4",
+      "type": "",
+      "title": "Anti-Acne Face Wash | Neem & Salicylic Acid",
+      "link": "",
+      "description": "The scent of victory for the ambitious gentleman | Long-lasting freshness",
+      "price": "₹249",
+      "beforeprice": "",
+      "discount": "4% OFF",
+      "ratings": "5.0"
+    },
+    {
+      "id": 5,
+      "src2": "",
+      "src": "https://cdn.shopify.com/videos/c/o/v/386058585d8b4357974eea1751e61422.mp4",
+      "type": "",
+      "title": "Moisturising Cream | Shea Butter And Vitamin E",
+      "link": "",
+      "description": "The scent of victory for the ambitious gentleman | Long-lasting freshness",
+      "price": "₹349",
+      "beforeprice": "",
+      "discount": "4% OFF",
+      "ratings": "4.8"
+    }
+  ],
+  "Users": [
+    
+  ]
 }
